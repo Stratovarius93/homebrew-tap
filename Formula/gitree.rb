@@ -25,6 +25,6 @@ class Gitree < Formula
 
   test do
     assert_match "gitree v#{version}", shell_output("#{bin}/gitree --version")
-    assert_match "not a git repository", shell_output("#{bin}/gitree #{testpath}/nope 2>&1", 1)
+    assert_match "not a git repository", shell_output("#{bin}/gitree #{testpath} 2>&1", 1)
   end
 end
