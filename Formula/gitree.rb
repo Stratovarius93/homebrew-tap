@@ -1,8 +1,8 @@
 class Gitree < Formula
   desc "GitKraken-style commit graph for the terminal, built on lazygit's graph renderer"
   homepage "https://github.com/Stratovarius93/gitree"
-  url "https://github.com/Stratovarius93/gitree/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "1482be3d1db89cc0c705358a111c285750c82aecd58b7680e63fdeeba529d540"
+  url "https://github.com/Stratovarius93/gitree/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "9560fb2b962b396552525cb44646cf0b4a74ee981ecf68043f7dccb8cda407ce"
   license "MIT"
   head "https://github.com/Stratovarius93/gitree.git", branch: "main"
 
